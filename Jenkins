@@ -8,7 +8,7 @@ pipeline{
                 sh 'echo "DONE."'
             }
         }
-        stage('msg'){
+        stage('MSG'){
             steps{
                 sh 'echo "Test done successfully ..."'
             }
